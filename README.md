@@ -1,4 +1,4 @@
-# Trifolium
+# Trifolium 🍀
 
 ![Trifolium Version 1.0.0](https://img.shields.io/badge/Trifolium-v1.0.0-brightgreen)
 ![Trefle Version 1.6.0](https://img.shields.io/badge/Trefle-v1.6.0-blue)
@@ -6,7 +6,7 @@
 
 [Trefle](https://trefle.io/) API Wrapper for Elixir, built for ease of use, with some cool helper methods to easily handle pagination. Currently supports Trefle on v1.6.0.
 
-## Installation
+## Installation 💻
 
 The package can be installed by adding `trifolium` to your list of dependencies in `mix.exs`:
 
@@ -20,7 +20,7 @@ end
 
 The docs can be found on [HexDocs](https://hexdocs.pm/trifolium).
 
-## Usage
+## Usage ⌨️
 
 ```elixir
 defmodule YourApp.Trefle
@@ -56,10 +56,10 @@ For every available method, please check [our documentation](https://hexdocs.pm/
 
 
 
-## Disclaimer
+## Disclaimer ⚠️
 
 This library is not affiliated in any way to the original Trefle project, and we do not provide warranty of any kind that it will continue working with the latest Trefle version, as they could introduce breaking changes. For further information, please visit our [LICENSE](./LICENSE).
 
-## Author
+## Author 🧙‍♂️
 
 - [RafaAudibert](https://www.rafaaudibert.dev)
