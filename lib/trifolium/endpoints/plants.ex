@@ -101,7 +101,7 @@ defmodule Trifolium.Plants do
     @http_client.post(
       get_path("#{id}/report"),
       Jason.encode!(%{notes: notes}),
-      [],
+      %{"Content-Type" => "application/json"},
       params: API.build_query_params()
     )
     |> API.parse_response()

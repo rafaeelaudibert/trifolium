@@ -48,7 +48,7 @@ defmodule Trifolium.Corrections do
     @http_client.post(
       get_path("species/#{id}"),
       Jason.encode!(body),
-      [],
+      %{"Content-Type" => "application/json"},
       params: API.build_query_params()
     )
     |> API.parse_response()

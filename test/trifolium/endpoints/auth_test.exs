@@ -22,7 +22,10 @@ defmodule Trifolium.AuthTest do
       expect(
         @http_client,
         :post,
-        fn "https://trefle.io/api/auth/claim", @body, [], [params: %{token: @token}] ->
+        fn "https://trefle.io/api/auth/claim",
+           @body,
+           %{"Content-Type" => "application/json"},
+           [params: %{token: @token}] ->
           {:ok, %HTTPoison.Response{body: @success_resp |> Jason.encode!(), status_code: 200}}
         end
       )
@@ -34,7 +37,10 @@ defmodule Trifolium.AuthTest do
       expect(
         @http_client,
         :post,
-        fn "https://trefle.io/api/auth/claim", @body, [], [params: %{token: @token}] ->
+        fn "https://trefle.io/api/auth/claim",
+           @body,
+           %{"Content-Type" => "application/json"},
+           [params: %{token: @token}] ->
           {:ok,
            %HTTPoison.Response{
              body: %{error: "Unauthorized"} |> Jason.encode!(),

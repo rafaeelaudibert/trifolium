@@ -18,7 +18,7 @@ defmodule Trifolium.Auth do
     @http_client.post(
       get_path("claim"),
       Jason.encode!(%{origin: origin, ip: ip}),
-      [],
+      %{"Content-Type" => "application/json"},
       params: API.build_query_params()
     )
     |> API.parse_response()

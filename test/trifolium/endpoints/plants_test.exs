@@ -525,7 +525,7 @@ defmodule Trifolium.PlantsTest do
       expect(
         @http_client,
         :post,
-        fn @path, @body, [], [params: %{token: @token}] ->
+        fn @path, @body, %{"Content-Type" => "application/json"}, [params: %{token: @token}] ->
           {:ok, %HTTPoison.Response{body: @success_resp |> Jason.encode!(), status_code: 200}}
         end
       )
@@ -537,7 +537,7 @@ defmodule Trifolium.PlantsTest do
       expect(
         @http_client,
         :post,
-        fn @path, @body, [], [params: %{token: @token}] ->
+        fn @path, @body, %{"Content-Type" => "application/json"}, [params: %{token: @token}] ->
           {:ok,
            %HTTPoison.Response{
              body: %{error: "Unauthorized"} |> Jason.encode!(),
