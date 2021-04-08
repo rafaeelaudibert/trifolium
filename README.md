@@ -1,6 +1,6 @@
 # Trifolium 🍀
 
-![Trifolium Version 1.0.0](https://img.shields.io/badge/Trifolium-v1.0.0-brightgreen)
+![Trifolium Version 1.0.1](https://img.shields.io/badge/Trifolium-v1.0.1-brightgreen)
 ![Trefle Version 1.6.0](https://img.shields.io/badge/Trefle-v1.6.0-blue)
 
 

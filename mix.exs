@@ -4,7 +4,7 @@ defmodule Trifolium.MixProject do
   def project,
     do: [
       app: :trifolium,
-      version: "1.0.0",
+      version: "1.0.1",
       elixir: "~> 1.11",
       name: "Trifolium",
       description: "Trefle API Library wrapper for Elixir",
