@@ -8,7 +8,7 @@ defmodule Trifolium.Config do
 
   @doc """
   Returns Trefle's API token. Set it in `mix.exs`:
-      config :trifolium, trefle_token: "YOUR_TREFLE_TOKEN"
+      config :trifolium, token: "YOUR_TREFLE_TOKEN"
   """
   @spec token :: String.t()
   def token, do: from_env(:trifolium, :token)
