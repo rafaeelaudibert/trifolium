@@ -3,6 +3,10 @@
 ![Trifolium Version 1.0.1](https://img.shields.io/badge/Trifolium-v1.0.1-brightgreen)
 ![Trefle Version 1.6.0](https://img.shields.io/badge/Trefle-v1.6.0-blue)
 
+> ⚠️ **Unfortunately, Trefle API is over/down for now.**
+>
+> From their [README.md](https://github.com/treflehq/trefle-api/blob/master/README.md): _We didn't got the time or the means to keep the Trefle API online any longer, so after spending months figuring out a solution, we decided to stop there. It has been a great adventure, and we are forever grateful for your support and feedback :pray:_
+----
 
 [Trefle](https://trefle.io/) API Wrapper for Elixir, built for ease of use, with some cool helper methods to easily handle pagination. Currently supports Trefle on v1.6.0.
 
